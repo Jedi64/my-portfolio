@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=""utf-8">
+        <title>Sample Page</title>
+    </head>
+    <body>
+        <a href="https://www.ibm.com" target="_blank">IBM</a>
+        <a href="#bottom">Bottom of Page</a>
+        <a href="#section">Link to section</a>
+        <h1 id="section">Section</h1>
+        <h1>Most Important (and Largest) Heading</h1>
+        <h2>Important information that goes in between...</h2>
+        <h3>Important information that goes in between...</h3>
+        <h4>Important information that goes in between...</h4>
+        <h5>Important information that goes in between...</h5>
+        <h6>Least Important (and Smallest) Heading</h6>
+        <p>Example paragraph</p>
+        <p>This is some text that needs to be split up <br>here, <br>here, and <br>here.</p>
+        <!-- this is a comment -->
+
+                <!-- Unordered List -->
+        <ul>
+            <li>This is a bullet point </li>
+            <li>The items in this list have no particular order </li>
+            <li>Each item will appear as a bullet, rather than a number </li>
+        </ul>
+        <!-- Ordered List -->
+        <ol>
+            <li>This is an ordered list </li>
+            <li>The items in this list have a particular order </li>
+            <li>Each item will be numbered, starting from 1 </li>
+            <li>This is the fourth point in the list </li>
+        </ol>
+
+        <table>
+            <tr>
+                <th>Heading 1</th>
+                <th>Heading 2</th>
+                <th>Heading 3</th>
+            </tr>
+            <tr>
+                <td>H1 - Data Item 1</td>
+                <td>H2 - Data Item 1</td>
+                <td>H3 - Data Item 1</td>
+            </tr>
+            <tr>
+                <td>H1 - Data Item 2</td>
+                <td>H2 - Data Item 2</td>
+                <td>H3 - Data Item 2</td>
+            </tr>
+            <tr>
+                <td>H1 - Data Item 3</td>
+                <td>H2 - Data Item 3</td>
+                <td>H3 - Data Item 3</td>
+            </tr>
+        </table>
+
+                <!-- External Image -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/440px-IBM_logo.svg.png" alt="IBM Logo" width="300" height="300">
+        <!-- Local Images -->
+        <img src="images/IBMlogo.png" alt="IBM Logo" width="300" height="300">
+
+        <section>
+            <h1>Howdy</h1>
+            <p>Cool story, bro.</p>
+        </section>
+
+        <article>
+            <h1>Article 1</h1>
+            <p>This paragraph is related only to article one and is meaningful on its own, without the rest of the code.</p>
+        </article>
+
+        <article>
+            <header>
+                <h1>G8 summit protests</h1>
+            </header>
+            <div>
+                <section id="public">
+                    <h1>Public demonstrations</h1>
+                    <p>...more...</p>                
+                </section>
+                <section id="control">
+                    <h1>Crowd control</h1>
+                    <p>...more...</p>                
+                </section>            
+            </div>
+            <footer>
+                <p>Published today.</p>
+            </footer>
+        </article>
+
+        <figure>
+            <img src="images/IDSNlogo.png" alt="IBM logo lol" width="500" height="500"/>
+            <figcaption>IBM Developer Skills Network Logo</figcaption>
+          </figure>
+
+        <aside>
+            <h4>Concept Definition</h4>
+            <p>This goes over the concept mentioned in the paragraph to provide readers with further explanation if needed. However, it does not detract from the main content.</p>
+        </aside>
+        <canvas>
+            Your browser does not support the canvas tag.
+        </canvas>
+        <script>
+            var canvas = document.getElementsByTagName("canvas")[0];
+            var context = canvas.getContext("2d");
+            context.fillRect(0, 0, 100, 100);
+        </script>
+    </body>
+</html>
